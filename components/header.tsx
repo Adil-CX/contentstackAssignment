@@ -91,9 +91,7 @@ const MyComponent = () => {
                                                 <img src={item?.icon?.url} className="shrink-0"/>
                                               
                                             }
-                                            
                                         </Link>
-                                      
                                     </li>
                                 )
                             })}

@@ -50,15 +50,14 @@ const HeroBanner = () => {
 
                                     <CarouselItem key={key}>
                                         <section className="grid grid-cols-1 md:grid-cols-2">
-                                            <section className="pl-4 md:pl-10">
+                                            <section className="px-4 md:px-10">
                                                 <h1 className="text-[30px] lg:text-[90px] leading-[35px] lg:leading-[95px] tracking-[1%] uppercase">
-                                                    {/* {console.log(heroData[0].block1.title1)} */}
                                                     <span>{item.title1}</span><br />
                                                     <span className="font-bold">{item.title2}</span>
                                                 </h1>
-                                                <section className="w-[355px] h-[2px] md:h-1 bg-black my-5 md:my-10"></section>
+                                                <section className="w-full sm:w-[355px] h-[2px] md:h-1 bg-black my-5 md:my-10"></section>
                                                 <p className="text-[22px] tracking-[1%] font-normal">
-                                                    {item.descpription}
+                                                    {item.description}
                                                 </p>
                                                 <section className="flex gap-4 md:gap-52 mt-6 md:mt-10">
                                                     <button className="flex gap-2 md:gap-5 items-center">

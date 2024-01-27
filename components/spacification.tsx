@@ -32,12 +32,12 @@ const Spacification = () => {
 
     return (
         <section className="max-w-[1440px] px-4 md:px-10 mx-auto my-10">
-            <ul className="flex justify-between gap-3 md:gap-5 flex-wrap">
+            <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 justify-between gap-3 md:gap-5 flex-wrap">
                 {
                     data?.map((item: any, key: any) => {
                         return (
                             <li key={key}
-                                className="w-[160px] md:w-[174px] h-[130px] md:h-[137px] flex flex-col items-center justify-center text-[#42454A] shadow-md">
+                                className="h-[130px] md:h-[137px] flex flex-col items-center justify-center text-[#42454A] shadow-md">
                                 <p className="text-center leading-12 font-bold">
                                     <strong className="text-[40px] ">{item?.value} </strong>
                                     <span className="text-[18px]">{item?.scale}</span>
