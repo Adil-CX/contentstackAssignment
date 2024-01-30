@@ -1,5 +1,5 @@
 'use client'
-// import contentstack from 'contentstack';
+import contentstack from 'contentstack';
 import {
     Accordion,
     AccordionContent,
@@ -23,20 +23,8 @@ import Image from 'next/image';
 import { useEffect, useState } from "react";
 import axios from "axios";
 const MyComponent = () => {
-    // const stack = contentstack.Stack({ "api_key": "bltfd340badd0a069d4", "delivery_token": "cs61119e4f9cfff1674ec1e91c", "environment": "development" })
-    // const query = stack.ContentType('character').Query();
 
-    // const getCharacterEntry = async (entryId:string) => {
-    //     let res = await stack
-    //     .ContentType("character")
-    //     .Entry(entryId)
-    //     .only(["title","powers","image","description"])
-    //     .toJSON()
-    //     .fetch();
-    //     // console.log("BE REs",result);
-    //     return res
-    //     //return result;
-    // }
+   
 
     const [navbarData, setNavbarData] = useState([])
 

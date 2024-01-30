@@ -7,20 +7,24 @@ import MultipleAccessories from "@/components/multipleAccesseries";
 import ProductsInformation from "@/components/productInformation";
 import Spacification from "@/components/spacification";
 import SubscribeNewsletter from "@/components/subscribeNewsletter";
+import MFooter from "@/components/mFooter";
 import Image from "next/image";
+import FooterMobile from "@/components/mFooterMobile";
 
 export default function Home() {
   return (
     <main>
       <Header />
-      <HeroBanner />
+      {/* <HeroBanner />
       <Spacification />
       <ProductsInformation />
       <EfficiencyMotor />
       <MultipleAccessories />
       <Gallery />
       <SubscribeNewsletter />
-      <Footer />
+      <Footer /> */}
+      {/* <FooterMobile /> */}
+      <MFooter />
     </main>
   );
 }
